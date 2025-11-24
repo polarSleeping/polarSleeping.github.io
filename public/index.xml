@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/hugo_command/</link>
       <pubDate>Mon, 24 Nov 2025 11:14:54 +0800</pubDate>
       <guid>http://localhost:1313/posts/hugo_command/</guid>
-      <description>&lt;p&gt;hugo version&#xA;hugo help&#xA;hugo server &amp;ndash;help&lt;/p&gt;</description>
+      <description>&lt;p&gt;hugo version&#xA;hugo help&#xA;hugo server &amp;ndash;help&lt;/p&gt;&#xA;&lt;p&gt;github actions&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
