@@ -11,8 +11,8 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   
   # 启用相关功能
-  homeInfoParams = true
-  socialIcons = true
+  # homeInfoParams = { Title = "Hi there", Content = "Welcome to my blog" }
+  # socialIcons = [ { name = "github", url = "https://github.com/" } ]
   
   # 显示阅读时间
   ShowReadingTime = true
