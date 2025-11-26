@@ -4,9 +4,6 @@ title = 'My New Hugo Site'
 theme = 'PaperMod' 
 
 [params]
-  # 网站描述
-  description = "这是我的技术博客，分享编程知识和生活感悟"
-  
   # 默认主题模式：auto, light, dark
   defaultTheme = "auto"
   
