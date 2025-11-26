@@ -118,9 +118,16 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p></p>
+    <p>全局变量
+1 a = 1 局部变量
+1 local b = 2 同时赋值
+1 local c, d = 0x11, 2e10 这里的c和d都是局部变量
+没有被声明的变量都是nil
+算术运算符
+1 &#43; - * / ^ % &lt;&lt; &gt;&gt; 字符串
+1 2 3 4 5 6 7 8 9 10 11 12 13 local str = &#34;hello world&#34; str1 = &#39;Lua is great!&#39; str2 = [[This is a multi-line string.]] print(#str) -- 11 print(string.len(str)) -- 11 print(string.sub(str, 1, 5)) -- hello print(string.find(str, &#34;world&#34;)) -- 7 11 print(string.format(&#34;Number: %.2f&#34;, 3.14159)) -- Number: 3.14 print(str .. &#34; &#34; .. str1) -- hello world Lua is great! print(tostring(123)) -- &#34;123&#34; print(tonumber(&#34;456&#34;)) -- 456 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-11-26 14:39:16 +0800 CST'>November 26, 2025</span>&nbsp;·&nbsp;<span>0 min</span></footer>
+  <footer class="entry-footer"><span title='2025-11-26 14:39:16 +0800 CST'>November 26, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
   <a class="entry-link" aria-label="post link to Lua_note" href="http://localhost:1313/posts/lua_note/"></a>
 </article>
 
