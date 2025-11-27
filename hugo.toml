@@ -1,15 +1,20 @@
 baseURL = 'https://polarsleeping.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Polar Sleeping's Blog"
 theme = 'PaperMod' 
+[pagination]
+  pagerSize = 5
+  disableAliases = false
 
 [params]
   # 默认主题模式：auto, light, dark
   defaultTheme = "auto"
   
   # 启用相关功能
-  # homeInfoParams = { Title = "Hi there", Content = "Welcome to my blog" }
-  # socialIcons = [ { name = "github", url = "https://github.com/" } ]
+  homeInfoParams = { Title = "Hello", Content = "May the Force be with you.", AlignSocialIconsTo = "center" }
+  socialIcons = [ { name = "github", url = "https://github.com/polarSleeping" } ]
+  # 列在首页的主要 sections（将 docs 加入以显示 content/docs 下的页面）
+  mainSections = ["posts", "docs"]
   
   # 显示阅读时间
   ShowReadingTime = true
@@ -17,9 +22,42 @@ theme = 'PaperMod'
   # 显示代码复制按钮
   ShowCodeCopyButtons = true
 
+  # 文章前后导航
+  ShowPostNavLinks = true
+
+  # 面包屑导航
+  ShowBreadCrumbs = true     
+
+  # 归档页显示所有文章
+  # ShowAllPagesInArchive = true
+
+  # 显示目录
+  ShowToc = true
+
+  # 分页显示页码
+  ShowPageNums = true
+
 # 输出配置
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archive"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
 
 # 标记配置
 [markup]

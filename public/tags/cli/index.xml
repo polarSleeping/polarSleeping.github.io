@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cli on Polar Sleeping&#39;s Blog</title>
+    <link>http://localhost:1313/tags/cli/</link>
+    <description>Recent content in Cli on Polar Sleeping&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Nov 2025 11:14:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo_command</title>
+      <link>http://localhost:1313/posts/hugo_command/</link>
+      <pubDate>Mon, 24 Nov 2025 11:14:54 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hugo_command/</guid>
+      <description>&lt;p&gt;hugo version
+hugo help
+hugo server &amp;ndash;help&lt;/p&gt;
+&lt;p&gt;github actions&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,7 @@
 date = '2025-11-26T14:39:16+08:00'
 draft = false
 title = 'Lua_note'
+tags = ["lua", "programming", "notes"]
 +++
 
 全局变量

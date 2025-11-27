@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Github_action | My New Hugo Site</title>
+<title>Notes | Polar Sleeping&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Github_action - My New Hugo Site">
+<meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/post/github_action/">
+<link rel="canonical" href="http://localhost:1313/tags/notes/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,7 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/post/github_action/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/notes/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/notes/">
 <noscript>
     <style>
         #theme-toggle,
@@ -72,11 +73,11 @@
 
 </script>
 </head>
-<body id="top">
+<body class="list" id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Polar Sleeping&#39;s Blog (Alt + H)">Polar Sleeping&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -101,31 +102,53 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
-<main class="main">
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
+  <h1>
+    Notes
+  </h1>
+</header>
 
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Github_action
-    </h1>
-    <div class="post-meta"><span title='2025-11-25 18:47:58 +0800 CST'>November 25, 2025</span>&nbsp;·&nbsp;<span>0 min</span>
-
-</div>
-  </header> 
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Lua_note
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>全局变量
+1 a = 1 局部变量
+1 local b = 2 同时赋值
+1 local c, d = 0x11, 2e10 这里的c和d都是局部变量
+没有被声明的变量都是nil
+算术运算符
+1 &#43; - * / ^ % &lt;&lt; &gt;&gt; 字符串
+1 2 3 4 5 6 7 8 9 10 11 12 13 local str = &#34;hello world&#34; str1 = &#39;Lua is great!&#39; str2 = [[This is a multi-line string.]] print(#str) -- 11 print(string.len(str)) -- 11 print(string.sub(str, 1, 5)) -- hello print(string.find(str, &#34;world&#34;)) -- 7 11 print(string.format(&#34;Number: %.2f&#34;, 3.14159)) -- Number: 3.14 print(str .. &#34; &#34; .. str1) -- hello world Lua is great! print(tostring(123)) -- &#34;123&#34; print(tonumber(&#34;456&#34;)) -- 456 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-26 14:39:16 +0800 CST'>November 26, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Lua_note" href="http://localhost:1313/posts/lua_note/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Polar Sleeping&#39;s Blog</a></span> · 
 
     <span>
         Powered by
@@ -198,53 +221,6 @@
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 
