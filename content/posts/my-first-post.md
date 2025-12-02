@@ -2,6 +2,7 @@
 date = '2025-11-24T11:10:32+08:00'
 title = 'My First Post'
 tags = ["first", "example", "hugo"]
+categories = ["Life"]
 +++
 ## Introduction
 

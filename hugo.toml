@@ -59,6 +59,13 @@ theme = 'PaperMod'
   url = "/tags/"
   weight = 30
 
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 40
+
+
 # 标记配置
 [markup]
   [markup.highlight]

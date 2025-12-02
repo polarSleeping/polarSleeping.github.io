@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/tags/cli/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b56d41036b57695e793c886963db24582c0bdf3dd158e021ed9553e4e7bcb4e1.css" integrity="sha256-tW1BA2tXaV55PIhpY9skWCwL3z3RWOAh7ZVT5Oe8tOE=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -117,9 +117,74 @@
                     <span>Tags</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
+
+<style>
+     
+    .nav {
+        overflow: visible !important;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        background-color: var(--theme);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 9999;
+        padding: 5px 0;
+        list-style: none;
+        border-radius: 5px;
+        border: 1px solid var(--border);
+        top: 100%;
+        left: auto;
+        right: 0;
+        margin-top: 5px;
+    }
+
+    .sub-menu li {
+        padding: 0;
+        display: block;
+        margin: 0;
+    }
+
+    .sub-menu li a {
+        color: var(--primary) !important;
+        padding: 8px 16px;
+        text-decoration: none;
+        display: block;
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    .sub-menu li a:hover {
+        background-color: var(--entry);
+        color: var(--primary) !important;
+    }
+
+    .dropdown:hover .sub-menu {
+        display: block;
+    }
+
+    .drop-icon {
+        font-size: 0.8em;
+        margin-left: 4px;
+    }
+</style>
 <main class="main"> 
 <header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
   <h1>

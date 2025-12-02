@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-27T16:07:42+08:00</lastmod>
+    <lastmod>2025-11-27T16:12:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-11-27T16:07:42+08:00</lastmod>
+    <lastmod>2025-11-27T16:12:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/toml_note/</loc>
+    <lastmod>2025-11-27T16:12:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/soft_decision_tree/</loc>
     <lastmod>2025-11-27T16:07:42+08:00</lastmod>
@@ -62,18 +65,22 @@
     <loc>http://localhost:1313/posts/hugo_command/</loc>
     <lastmod>2025-11-24T11:14:54+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-11-24T11:10:32+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
     <lastmod>2025-11-24T11:10:32+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/first/</loc>
     <lastmod>2025-11-24T11:10:32+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/life/</loc>
+    <lastmod>2025-11-24T11:10:32+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2025-11-24T11:10:32+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url>
